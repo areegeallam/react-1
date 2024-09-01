@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    font-weight: 700;
+    border: 6px solid #3E9785;
+   background-color: #3E9785 ;
+   border-radius: 10px;
+
+    
+}
+.contact{
+    border: none;
+    border-bottom: 1px solid rgb(88, 83, 83);
+}
+.btn{
+    background-color:#3E9785;
+    padding: 12px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+.img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.749);
+    opacity: 0;
+    transition: 0.5s;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+}
+.main:hover .layer{
+    opacity: 1;
+}
+.icon{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
